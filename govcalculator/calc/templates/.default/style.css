@@ -1,0 +1,56 @@
+.salary-calc form .field-block {
+    margin-bottom: 10px;
+}
+
+.salary-calc form .field-block label {
+    display: block;
+}
+
+.salary-calc form .field-block select {
+    width: 100%;
+    padding: 10px 5px;
+    margin: 5px 0;
+}
+
+.salary-calc form .field-block input {
+    width: 100%;
+    padding: 10px 5px;
+    margin: 5px 0;
+    box-sizing: border-box;
+}
+
+.salary-calc form .field-block span {
+    color: darkred;
+    display: block;
+}
+
+.calc-result {
+    display: none;
+    padding: 20px 0;
+    font-size: 20px;
+}
+
+.calc-result span {
+    color: #0b2e13;
+}
+
+.calc-result-modal {
+    display: none;
+    padding: 50px 50px;
+    font-size: 20px;
+    width: 320px;
+    background-color: #fff;
+    position: fixed;
+    top: 50px;
+    right: 100px;
+    z-index: 100;
+    border: 1px solid dodgerblue;
+}
+
+.calc-result-modal span {
+    color: #0b2e13;
+}
+
+.salary-calc form .exp_years_type_1, .salary-calc form .exp_years_type_2 {
+    display: none;
+}
